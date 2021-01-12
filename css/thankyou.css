@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Lato:300,400,700&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Start Header */
+
+.header {
+    position: relative;
+    background: url('../img/bg-hero2.jpg') center center no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #43cea2, #185a9d);
+    opacity: .9;
+}
+header .header-content {
+    padding-top: 20vh;
+    color: #fff;
+}
+header .header-content h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+header .header-content h3 {
+    font-size: 28px;
+    margin-bottom:0;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+header .header-content a {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 15px 50px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #31aff5;
+    line-height: 1.5;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    transition: all 0.3s ease-in-out;
+}
+header .header-content a:hover {
+    background-color: #30a7e9;
+}
+header .header-content .header-hero-img {
+    padding-top: 45px;
+    text-align: center;
+    margin: 0 auto
+}
+header .header-content .header-hero-img img {
+    max-width: 650px
+}
+/* End Header */
+
+/* Start Main */
+
+.main {
+    height: 35vh;
+    background-color: #f9f9f9;
+    padding: 30px 0;
+}
+.main h2,
+.main h5 {
+    font-weight: bold;
+    color: #666
+}
+.main i {
+    margin: 20px;
+}
+/* End Main */
